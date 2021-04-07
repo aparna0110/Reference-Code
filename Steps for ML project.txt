@@ -1,0 +1,40 @@
+**************----Complete ML project till Deployment (In Heroku)----*******************
+
+1-) Create a virtual environment in Anaconda command prompt
+	a-) Using Conda (COMMAND:: conda create -n nameofvirtualenv python=3.9)
+	b-) Using Pip (COMMAND:: pip install virtualenv , SECOND COMMAND:: python -m venv nameofvirtulenv)
+
+2-) Activation of virtual environment 
+	a-) Using Conda (COMMAND:: activate nameofvirtualenv)
+	b-) Using Pip (COMMAND:: nameofvirtualenv\Scripts\activate.bat)
+
+3-) Check the available packages in the virtual environment
+	a-) Using Conda (COMMAND:: conda env list)
+	b-) Using Pip (COMMAND:: pip list)
+
+4-) Go to the project folder and open Jupyter notebook (COMMAND:: cd projectFolder jupyter notebook)
+
+5-) Create a ML model using Datascience steps
+
+6-) Save that model in to Pickle file (For using this model in UI or in our project)
+
+7-) Create requirement.txt
+	a-) Using Pip (COMMAND:: pip freeze)
+
+8-) Open Spyder and go to project folder
+
+9-) For UI need to create UI Flask installation
+
+10-) Open virtual environment and install Flask
+
+11-) To check all virtual environments on conda (COMMAND:: conda info --envs)
+
+
+
+*************----DEPLOYMENT in HEROKU---******************
+
+1-) Need requirement.txt
+2-) Need Procfile
+3-) Dump all the code in github
+4-) Make a connection between Heroku and gitub and deploy directly
+
